@@ -1,0 +1,36 @@
+#width-container {
+     display: flex;
+     padding-top: 27px;
+     padding-bottom: 27px;
+
+        .width-content-container {
+            padding:0px 5px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 100%;
+            }
+
+            div {
+                border: $content-border;
+                background-color: $bg-secondary-color;
+
+                h3 {
+                    font-size: 2em;
+                    letter-spacing: 1px;
+                    font-weight: $secondary-font-weight;
+                    margin: 15px 0px;  
+                }
+
+                p {
+                    font-size: 1.1em;
+                    line-height: 1.4em;
+                    color: $txt-secondary-color;
+                    font-weight: $primary-font-weight;
+                }
+            }
+        }
+}
+

@@ -1,0 +1,51 @@
+html {
+    font-family: 'Catamaran', tahoma, sans-serif;
+}
+
+.gutter {
+    padding: 0 8%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.perforated-border {
+    border: 7px solid transparent;
+    border-image: url(../assets/perforated-bottom@2x.png) 0 0 30 0 repeat;
+    position: relative;
+    top: -8px;
+    width: 100%;
+}
+
+.x-border {
+    border: 7px solid transparent;
+    border-image: url(../assets/hatch-light@2x.png) 30 0 0 0 repeat;
+    position: relative;
+    top: -8px;
+    width: 100%;
+}
+
+$txt-highlight-color: white;
+$txt-primary-color: #000;
+$txt-secondary-color: #909090;
+$bg-primary-color: white;
+$bg-secondary-color: #f4f4f4;
+$bg-tertiary-color: #fa6938;
+$bg-quaternary-color: #a2afc0;
+$bg-button-color: #33a1ff;
+$text-button-color: white;
+$input-border-color: lightgrey;
+$content-border: 1px solid #c8c8c8;
+$primary-link-color: #33a1ff;
+$secondary-link-color: #1782e0;
+$primary-font-weight: bold;
+$secondary-font-weight: 100;
+$secondary-font-family: Tahoma;
+
+
+@import 'promotion';
+@import 'header-container';
+@import 'banner-container';
+@import 'sub-footer';
+@import 'footer';

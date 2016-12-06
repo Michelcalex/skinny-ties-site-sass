@@ -1,0 +1,89 @@
+#sub-footer {
+    background-color: $bg-primary-color;
+    display: flex;
+    margin: -15px 0px;
+
+    .sub-footer-box-elements {
+        flex: 1;
+        padding: 50px 30px 50px 0px;
+
+        h4 {
+            font-size: 1.1em;
+            font-family: $secondary-font-family;
+            margin: 0 0 15px;
+        }
+
+        p {
+            margin-top: 0px;
+            font-size: 0.96em;
+            font-weight: $primary-font-weight;
+        }
+
+        a {
+            color: $primary-link-color;
+            font-size: 0.96em;
+
+             img {
+                border: $content-border;
+                width: 100%;
+                margin-bottom: 15px;
+                border-radius: 1px;
+            }
+        }
+
+        a:hover {
+            color: $secondary-link-color;
+        }
+
+        .social-media-container {
+            display: flex;
+            width: 47%;
+
+            div {
+                padding-right: 10px;
+            }
+
+            #facebook-sprite {
+                background: url('../assets/sprite.png') no-repeat -320px 0;
+                width: 35px;
+                height: 35px;
+            }
+
+            #pinterest-sprite {
+                background: url('../assets/sprite.png') no-repeat -320px -40px;
+                width: 35px;
+                height: 35px;
+            }
+
+            #twitter-sprite {
+                background: url('../assets/sprite.png') no-repeat -320px -80px;
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        #name-input {
+            border: 4px solid $input-border-color;
+            width: 70%;
+            border-radius: 5px;
+            margin-bottom: 6px;
+            padding: 6px;
+            font-weight: $secondary-font-weight;
+            font-size: 0.75em;
+        }
+
+        .subscribe-button {
+            color: $text-button-color;
+            text-transform: uppercase;
+            background-color: $bg-button-color;
+            margin-top: 10px;
+            border-radius: 4px;
+            font-size: 0.7em;
+            font-weight: $secondary-font-weight;
+            border: 0px solid;
+            padding: 5px 8px;
+        }
+
+    }
+
+}

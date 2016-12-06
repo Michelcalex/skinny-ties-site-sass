@@ -1,0 +1,117 @@
+#header-container {
+    background-color: $bg-primary-color;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+
+    a {
+        width: 12%;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    nav {
+
+         ul {
+            font-size: 1.5em;
+        
+
+            li {
+                display: inline-block;
+                padding: 13px;
+
+                a {
+                    color: $txt-primary-color;
+                }
+            }
+        }
+    }
+
+    #header-right {
+        display: flex;
+        width: 39%;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-bottom: 23px;
+
+        .account {
+           position: relative;
+           bottom: 10px;   
+           text-transform: uppercase;
+
+            a {
+                padding-left: 5px;
+                font-size: 0.8em;
+                color: $txt-secondary-color;
+            }
+
+            a:hover {
+                color: $secondary-link-color;
+            }
+        }
+
+        #cart-search-container {
+            display: flex;
+            justify-content: flex-end;
+
+            .cart-box {
+                border: $content-border;
+                display: flex;
+                align-items: center;
+                border-radius: 3px;
+
+                div {
+                    padding: 4px;
+
+                    a {
+                        color: $txt-secondary-color;
+                    }
+                }
+
+                .cart-sprite {
+                    background: url('../assets/sprite.png') no-repeat -54px -28px;
+                    width: 14px;
+	                height: 12px;
+                }
+
+                .cart-square {
+                    background-color: #c8c8c8;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 3px;
+                    margin: 2px;
+                    margin-right: 6px;
+                }
+            }
+
+            #search-container {
+                border: 4px solid $input-border-color;
+                margin-left: 15px;
+                border-radius: 5px;
+                width: 50%;
+                padding-top: 3px;
+
+                .search-sprite {
+                    background: url('../assets/sprite.png') no-repeat -20px -30px;
+                    width: 14px;
+                    height: 14px;
+                    position: relative;
+                    left: 14px;
+                    display: inline-block;
+                }
+
+                input {
+                    width: 70%;
+                    float: right;
+                    border: none;
+                    font-size: 0.75em;
+                }
+            }
+        }
+    }
+}
+
+
+

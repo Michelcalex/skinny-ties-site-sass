@@ -1,0 +1,109 @@
+footer {
+    background-color: $bg-secondary-color;
+    margin-top: -15px;
+
+    #footer-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+
+        #nav-bottom {
+            display: flex;
+
+            ul {
+                padding-left: 0px;
+                padding-right: 40px;
+                margin-top: 0px; 
+
+                h5 {
+                   font-family: $secondary-font-family;
+                    margin: 5px 0px 10px; 
+                }
+
+                li {
+                    list-style: none;
+                    font-size: 0.95em;
+
+                    a {
+                        color: $txt-secondary-color;
+                        list-style: none;
+                        font-size: 0.95em;
+                    }
+
+                    a:hover {
+                        color: $primary-link-color;
+                    }
+                }
+            }
+        }
+
+        #contact-us-container {
+            background-color: $bg-quaternary-color;
+            padding: 0px 22px;
+            border-radius: 5px;
+
+            h3 {
+                color: $txt-highlight-color;
+                font-size: 2em;
+                font-weight: $secondary-font-weight;
+                font-style: italic;
+                letter-spacing: 1px;
+                padding-right: 55px;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+
+            .contact-us-bottom {
+                display: flex;
+                margin-bottom: 20px;
+
+                .contact-us-left {
+                    
+                    span {
+                        font-size: 1.2em;
+                        display: flex;
+                        letter-spacing: 0.5px;
+                        line-height: 1.5em;
+                        color: $txt-highlight-color;
+                    }
+                }
+
+                .contact-us-right {
+                    margin-left: 30px;
+
+                    .contact-us-button {
+                        color: $text-button-color;
+                        background-color: $bg-button-color;
+                        border-radius: 4px;
+                        font-size: 1.1em;
+                        font-weight: $secondary-font-weight;
+                        border: 0px solid;
+                        padding: 10px;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    #copyright-containter {
+        padding: 8px 0px 40px;
+
+        .copyright {
+            color: $txt-secondary-color;
+            font-size: 0.7em;
+        }
+
+        .made-by {
+            padding-left: 10px;
+
+            a {
+                border-bottom: 1px dotted #CCC;
+            }
+
+            a:hover {
+                color: $primary-link-color;
+            }
+        }
+    }
+}

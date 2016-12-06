@@ -1,0 +1,32 @@
+#promotion-container {
+        background-color: #fa6938;
+
+    ul {
+        color: $txt-highlight-color;
+        display: flex;
+        align-items: center;  
+        font-size: 0.9em;
+        padding-left: 0px;
+
+        li {
+            text-transform: uppercase;
+            padding: 10px;
+            list-style: none;
+            text-shadow: 0.5px 0.5px gray;
+
+            a {
+                color: $txt-highlight-color;
+            }
+        }
+
+        .shipping {
+            background-color: #c7532c;
+            border-radius: 2px;
+            padding: 4px 8px !important;
+        }
+    }
+}
+
+
+
+

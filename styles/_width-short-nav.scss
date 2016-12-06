@@ -1,0 +1,26 @@
+#width-short-nav {
+    padding-bottom: 30px;
+    padding-top: 3px; 
+
+    .short-nav-container {
+        color: $txt-secondary-color;
+        border: $content-border;
+        width: 14%;
+        padding: 5px;
+        margin-left: 5px;
+        margin-bottom: 27px;
+
+        span {
+            padding: 0px 2px;
+            font-size: 0.75em;
+
+            a {
+                color: $primary-link-color;
+            }
+
+            a:hover {
+                color: $secondary-link-color;
+            }
+        }
+    }  
+}

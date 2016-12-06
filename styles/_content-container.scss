@@ -1,0 +1,46 @@
+#content-container {
+    text-align: center;
+    padding-bottom: 90px;
+
+    #product-container {
+
+        div {
+            display: inline-block;
+            width: 32.35%;
+            margin: 58px 4px;
+            position: relative;
+
+            img {
+                width: 100%;
+                border-radius: 1px;
+                border: $content-border;
+            }
+
+            h3 {
+                font-family: $secondary-font-family;
+                position: absolute;
+                text-align: right;
+                top: 0;
+                right: 16px;
+                font-size: 1.3em
+            }
+        }
+    }
+
+    h2 {
+        font-style: italic;
+        font-size: 2.4em;
+        line-height: 1.4;
+        font-weight: 200;
+        }
+
+    a {
+        color: $primary-link-color;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    a:hover {
+        color: $secondary-link-color;
+    }
+}
